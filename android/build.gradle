@@ -19,10 +19,10 @@ def safeExtGet(prop, fallback) {
 }
 
 android {
-    compileSdkVersion safeExtGet('CashfreePgApi_compileSdkVersion', 30)
+    compileSdkVersion safeExtGet('compileSdkVersion', 30)
     defaultConfig {
-        minSdkVersion safeExtGet('CashfreePgApi_minSdkVersion', 19)
-        targetSdkVersion safeExtGet('CashfreePgApi_targetSdkVersion', 30)
+        minSdkVersion safeExtGet('minSdkVersion', 19)
+        targetSdkVersion safeExtGet('targetSdkVersion', 30)
         versionCode 1
         versionName "1.0"
 
